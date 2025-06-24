@@ -4,5 +4,96 @@ body{
     margin: 0px;
 }
 
+/* div{
+    border: 1px solid red;
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*HERO SECTION AND THE MAJOR DIVS*/
+.hero{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    
+}
+
+.hero-top{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    margin: 50px 0px;
+}
+
+.hero-bottom-left-title, .hero-bottom-left-text, .hero-bottom-left-btn{
+    margin: 5px;
+}
+
+.hero-bottom-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    width: 500px;
+    
+}
+
+/*INDIVIDUAL ELEMENTS AND GROUP ELEMENTS*/
+
+h4{
+    font-size: 24px;
+}
+
+.hero-bottom-left-title{
+    font-size: 48px;
+    
+}
+
+h1, h4{
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+img{
+    width: 500px;
+    height: 200px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+}
+
+ a, .hero-bottom-left-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 40px;
+    color: #E5E7EB;
+    font-weight: 900;
+}
+
+/*BOXES DIV SECTION*/
+
+
+
+
+
 
 
