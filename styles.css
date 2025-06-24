@@ -1,6 +1,7 @@
 
 body{
     font-family: "Roboto";
+    margin: 0px;
 }
 
 .container{
@@ -12,7 +13,42 @@ body{
 .header, .boxs, .quote, .footer{
     border: solid;
     border-color: blue;
+    width: 100%;
 }
+
+.header, .boxs, .quote{
+    flex: 1;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px; 
+    
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.hero2{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.rand{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
 
 .hero-title{
     font-size: 24px;
@@ -21,6 +57,8 @@ body{
 
 .hero-txt{
     font-size: 48px;
+    margin-top: 50px;
+    margin-bottom: 0px;
 }
 
 .hero-title, .hero-txt{
@@ -31,9 +69,26 @@ body{
 .hero-secondary, .footer{
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 5px;
 }
 
 
 .header, .footer{
     background-color: #1F2937;
 }
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+
