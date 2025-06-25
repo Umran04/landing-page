@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     
+    
 }
 
 /*HERO SECTION AND THE MAJOR DIVS*/
@@ -80,7 +81,7 @@ ul{
     color: #E5E7EB;
 }
 
-button{
+.hero-bottom-left-btn{
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
@@ -89,11 +90,146 @@ button{
     font-weight: 900;
 }
 
-/*BOXES DIV SECTION*/
+/*-----------------------------------------*/
 
 
+/*INFO DIV SECTION*/
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxes{
+    display: flex;
+    margin-bottom: 40px;
+    
+    
+}
+
+.info-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    text-align: center;
+    
+
+}
+
+/*INFO INDIVIDUAL STYLING SECTION*/
+
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.box{
+    border: 4px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.info-boxes > p {
+    color: #1F2937;
+
+}
 
 
+/*-----------------------------------------*/
+
+/*QUOTE SECTION */
 
 
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
 
+.quote-sentence{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.quote-by{
+    font-weight: 900;
+    color: #1F2937;
+    font-size: 30px;
+    display: flex;
+}
+
+
+/*-----------------------------------------*/
+
+
+/*CTA DIV SECTION*/
+
+.CTA{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 40px 0;
+}
+
+.CTA-body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 800px;
+    height: 115px;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.CTA-heading{
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-bottom: 5px;
+
+}
+
+.CTA-txt{
+    color: #F9FAF8;
+    margin-top: 0px;
+}
+
+.CTA-btn{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: solid 3px #F9FAF8;
+    padding: 5px 25px;
+    border-radius: 5px;
+}
+
+/*-----------------------------------------*/
+
+
+/*FOOTER SECTION*/
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 30px 25px;
+}
